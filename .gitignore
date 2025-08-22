@@ -1,0 +1,12 @@
+# Ignorar arquivos de dados do ERA5
+*.nc
+*.grib
+*.grib2
+
+# Ignorar pastas com dados brutos
+run
+gribdata
+template
+# Ignorar arquivos grandes de output
+*.csv
+*.zip
