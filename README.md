@@ -13,7 +13,7 @@ Este projeto requer que o modelo WRF-Chem já esteja instalado. Recomenda-se uti
     `bash WRF4.6.1_Install.bash -chem`
 
 ##### **1.2. Conteúdo do Diretório `template/`**
-O diretório `template/` é crucial para a execução dos scripts. Ele contém todos os arquivos de configuração, tabelas e dados estáticos que o WRF e o WPS necessitam para rodar corretamente. Esses arquivos não estão incluídos neste repositório e devem ser obtidos separadamente. A lista completa de arquivos necessários é:
+O diretório `template/` é crucial para a execução dos scripts. Ele contém todos os arquivos de configuração, tabelas e dados estáticos que o WRF e o WPS necessitam para rodar corretamente. Esses arquivos não estão incluídos neste repositório e devem ser obtidos separadamente a partir dos WRF/test. A lista completa de arquivos necessários é:
 
 * `aerosol.formatted`
 * `aerosol_lat.formatted`
