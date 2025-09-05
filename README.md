@@ -4,7 +4,13 @@ Este repositório contém um conjunto de scripts e ferramentas para automatizar 
 
 #### **1. Configuração do Ambiente e Instalação**
 
-Para começar a usar o projeto, o primeiro passo é configurar seu ambiente de trabalho.
+Para começar a usar o era5 , o primeiro passo é configurar seu ambiente de trabalho.
+ pip install cdsapi
+colocar o arquivo com senha $HOME/.cdsapirc
+__
+url: https://cds.climate.copernicus.eu/api
+key: *********************************
+___
 
 ##### **1.1. Instalação do WRF-Chem**
 Este projeto requer que o modelo WRF-Chem já esteja instalado. Recomenda-se utilizar o script de instalação automatizado disponível no repositório `WRF-Install-Script`. O script foi projetado para instalar o WRF-Chem e todas as bibliotecas necessárias em sistemas baseados em Debian e Ubuntu.
